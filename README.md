@@ -50,14 +50,6 @@ In backend folder download the dependencies (Same with frontend folder)
 ```bash
   npm install
 ```
-To run frontend 
-```bash
-  npm run dev
-```
-To run backend
-```bash
-  node index.js
-```
 In config.js file 
 ```bash
   JWT_SECRET=your_jwt_secret
@@ -65,6 +57,14 @@ In config.js file
 In db file
 ```bash
   MONGO_URI=your_mongodb_uri
+```
+To run frontend 
+```bash
+  npm run dev
+```
+To run backend
+```bash
+  node index.js
 ```
 ## Access the application: 
 Open your browser and navigate 
