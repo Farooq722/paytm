@@ -1,7 +1,7 @@
 
 # Paytm Application
 
-This project is a Paytm-like application that replicates key features of a payment platform, allowing users to sign up, sign in, transfer money between accounts, and view their account details via a dashboard. It showcases a simple yet functional wallet system, with authentication and transactional capabilities built using modern web technologies.
+This project is a Paytm-application that replicates key features of a payment platform, allowing users to sign up, sign in, transfer money between accounts, and view their account details via a dashboard. It showcases a simple yet functional wallet system, with authentication and transactional capabilities built using modern web technologies.
 
 # Features
 
