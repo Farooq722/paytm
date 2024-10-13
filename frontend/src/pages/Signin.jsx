@@ -33,10 +33,8 @@ export const Signin = () => {
               username: email,
               password: password
             });
-
-            const token = response.data.token;
             
-            localStorage.setItem("Token", token);
+            localStorage.setItem("Token", response.data.token);
 
             navigate("/dashboard");
           }} label={"Sign in"} />
