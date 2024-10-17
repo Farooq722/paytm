@@ -78,6 +78,6 @@ Open your browser and navigate
 ![App Screenshot](./frontend/src/assets/signin.png)
 ![App Screenshot](./frontend/src/assets/signup.png)
 ![App Screenshot](./frontend/src/assets/sendMoney.png)
-![App Screenshot](./frontend/src/assets/home.png)
+![App Screenshot](./frontend/src/assets/homePage.png)
 
 
