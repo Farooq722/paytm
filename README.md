@@ -73,4 +73,11 @@ Open your browser and navigate
 - /dashboard
 - /send
 
+## Screenshots
+![App Screenshot](./frontend/src/assets/dashboard.png)
+![App Screenshot](./frontend/src/assets/signin.png)
+![App Screenshot](./frontend/src/assets/signup.png)
+![App Screenshot](./frontend/src/assets/sendMoney.png)
+![App Screenshot](./frontend/src/assets/home.png)
+
 
