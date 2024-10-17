@@ -1,10 +1,14 @@
 import axios from "axios";
 import { useState } from "react";
 import { useSearchParams } from "react-router-dom";
+// import { BackToDashboard } from "./BackToDashboard";
+import { Button } from "../components/Button";
+import { useNavigate } from "react-router-dom";
 
 export const SendMoney = () => {
     const [searchParams] = useSearchParams();
     const [amount, setAmount] = useState(0);
+    const navigate = useNavigate();
 
     const id = searchParams.get("id");
     const name = searchParams.get("name");
@@ -55,6 +59,9 @@ export const SendMoney = () => {
                     }} class="justify-center rounded-md text-sm font-medium ring-offset-background transition-colors h-10 px-4 py-2 w-full bg-green-500 text-white">
                         Initiate Transfer
                     </button>
+                    <Button label={"Back To Dashboard"} onClick={() => {
+                        navigate("/dashboard");
+                    }} />
                 </div>
                 </div>
         </div>
