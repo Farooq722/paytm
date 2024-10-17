@@ -61,6 +61,7 @@ export const SendMoney = () => {
                     </button>
                     <Button label={"Back To Dashboard"} onClick={() => {
                         navigate("/dashboard");
+                        //backtodashboard
                     }} />
                 </div>
                 </div>

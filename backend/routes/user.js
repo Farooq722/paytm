@@ -97,6 +97,7 @@ router.post("/signin",async (req, res) => {
         // const token = jwt.sign({
         //     userId: user._id
         // }, JWT_SECRET);
+        // fetch()
 
         res.json({
             token: token,
