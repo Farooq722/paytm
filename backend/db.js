@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
 
 // ex: mongodb+srv://dbusername:dbpassword@cluster0.wrgm2.mongodb.net/dbname
-// mongoose.connect("ENTER_YOUR_DB_URL");
-mongoose.connect("mongodb+srv://farooqytworld:MCmsI1ZfOMxGYAB3@cluster0.wrgm2.mongodb.net/paytm");
+mongoose.connect("ENTER_YOUR_DB_URL");
 
 
 // Create a Schema for Users
