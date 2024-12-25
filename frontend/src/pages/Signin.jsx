@@ -40,6 +40,9 @@ export const Signin = () => {
           }} label={"Sign in"} />
         </div>
         <BottomWarning label={"Don't have an account?"} buttonText={"Sign up"} to={"/signup"} />
+        <Button onClick={() => {
+          navigate("/");
+        }}className="text-lg" label={"Back To Home"} />
       </div>
     </div>
   </div>

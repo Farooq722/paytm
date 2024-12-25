@@ -44,7 +44,7 @@ export const Header = () => {
                                     </a>
                                 </li>
                                 <li className="flex items-center p-1 text-sm gap-x-2 text-gray-200">
-                                    <a onClick={() => navigate("/dashboard")} className="flex items-center cursor-pointer text-lg">
+                                    <a onClick={ () => navigate("/dashboard") } className="flex items-center cursor-pointer text-lg">
                                         Dashboard
                                     </a>
                                 </li>
