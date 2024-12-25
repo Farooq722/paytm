@@ -8,7 +8,6 @@ export const Appbar = () => {
 
     useEffect(()=>{
         const fetchUser = async () => {
-
             //taking logged in or signed up user's token 
             const token = localStorage.getItem("Token");
             // console.log(token);
@@ -27,10 +26,11 @@ export const Appbar = () => {
 
             // console.log(userId);
             let userExits = response.data.user.find(user => user._id == userId);
-            // console.log(userExits.firstName);
+            // console.log(userExits);
+            // console.log(userExits.firstName.toUpperCase());
 
             // console.log(response.data.user);
-            setUsers(userExits.firstName);
+            setUsers(userExits.firstName.toUpperCase());
         }
         fetchUser();
     },[]);
